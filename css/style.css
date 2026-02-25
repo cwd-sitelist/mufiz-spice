@@ -3419,9 +3419,9 @@ body.visible-sidebar {
 
 .intro-section .image-layer {
   position: absolute;
-  left: 50%;
+  left: 5%;
   top: 0;
-  transform: translateX(-50%);
+  /* transform: translateX(-50%); */
   width: 90%;
   height: 70%;
   background-position: center center;

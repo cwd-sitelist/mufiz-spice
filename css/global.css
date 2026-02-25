@@ -610,11 +610,11 @@ img{
     display: block;
     height: 56px;
     width: 100%;
-    font-size: 13px;
+    font-size: 11px;
     color: var(--text-color);
     line-height: 34px;
     font-weight: 400;
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: var(--color-one);
     border: 1px solid var(--white-color-opacity-four);
     border-radius: 0px;
