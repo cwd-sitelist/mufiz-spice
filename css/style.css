@@ -7557,7 +7557,7 @@ a.ser-icon {
   filter: invert(1);
 }
 .Notes {
-    padding:10px  40px 60px 40px ;
+    padding:20px  40px 60px 40px ;
     text-align: center;
 }
 .Notes p{
@@ -7565,7 +7565,7 @@ a.ser-icon {
 }
 .Qr-code{
    width: 100px;
-   height: 30px;
+   height: 100px;
    margin: auto;
    margin-top: 20px;
 
