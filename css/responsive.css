@@ -1676,9 +1676,22 @@ footer .bottom_footer .auto-container{
 @media only screen and (max-width: 479px) {
   /* heading */
   .banner-text-top h1 {
-    font-size: 30px;
+    font-size: 32px;
     line-height: 1.4;
   }
+  .title-box .subtitle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--main-color);
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
 
   h1 {
     font-size: 40px;
