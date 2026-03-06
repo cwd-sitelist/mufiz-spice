@@ -7602,3 +7602,29 @@ a.ser-icon {
 .change-color{
   color: #ee1c24;
 }
+.address span{
+  display:block;
+  text-align:center;
+  color:#fff;
+  font-size:18px;
+  line-height:1.8;
+}
+/* Tablet */
+@media (max-width:991px){
+  .address span{
+    font-size:16px;
+    line-height:1.7;
+  }
+}
+
+/* Mobile */
+@media (max-width:576px){
+  .address{
+    max-width:100%;
+  }
+
+  .address span{
+    font-size:12px;
+    line-height:1.6;
+  }
+}

@@ -1692,6 +1692,13 @@ footer .bottom_footer .auto-container{
     line-height: 1.5em;
     margin-bottom: 10px;
 }
+.main-footer .info-col .info li {
+    position: relative;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: var(--white-color);
+}
 
   h1 {
     font-size: 40px;
