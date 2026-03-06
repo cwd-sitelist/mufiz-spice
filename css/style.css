@@ -2374,7 +2374,7 @@ body.visible-sidebar {
 .tabs-box .tabs-content .tab {
   position: relative;
   display: none;
-  padding: 60px 40px 10px 40px;
+  padding: 20px 40px 10px 40px;
 }
 
 .tabs-box .tabs-content .active-tab {
@@ -7598,4 +7598,7 @@ a.ser-icon {
     border: none!important;
 
 }
+}
+.change-color{
+  color: #ee1c24;
 }
