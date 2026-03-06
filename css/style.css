@@ -7620,11 +7620,13 @@ a.ser-icon {
 /* Mobile */
 @media (max-width:576px){
   .address{
-    max-width:100%;
-  }
+    max-width: 76%;
+    margin: auto;
+    }
+  
 
   .address span{
-    font-size:12px;
+    font-size:16px;
     line-height:1.6;
   }
 }
