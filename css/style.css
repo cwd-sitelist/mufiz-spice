@@ -7594,4 +7594,8 @@ a.ser-icon {
     background-attachment: fixed;
   
 }
+.menu-col {
+    border: none!important;
+
+}
 }
