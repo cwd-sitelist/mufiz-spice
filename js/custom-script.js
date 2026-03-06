@@ -291,13 +291,28 @@ if ($('.main-header').length) {
 					autoplay: true,
 					autoplayTimeout: 5000
 				})
-				.on('changed.owl.carousel', function (e) {
-					if (!flag) {
-						flag = false;
-						$sync2.trigger('to.owl.carousel', [e.item.index, duration, true]);
-						flag = false;
-					}
-				});
+			.on('changed.owl.carousel', function (e) {
+
+    if (!flag) {
+        flag = true;
+
+        var count = e.item.count; // total items
+        var current = e.item.index - e.relatedTarget._clones.length / 2;
+
+        if (current < 0) {
+            current = count - 1;
+        }
+
+        if (current >= count) {
+            current = 0;
+        }
+
+        $sync2.trigger('to.owl.carousel', [current, duration, true]);
+
+        flag = false;
+    }
+
+});
 
 			$sync2
 				.owlCarousel({
